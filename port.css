@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&family=Noto+Sans:ital,wght@0,100;0,300;0,500;0,600;1,400;1,700&family=Roboto+Slab:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+   
+    
+}
+
+body{
+    background-color:#000428;
+    
+}
+
+.whole{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+
+
+nav{
+    display: flex;
+    width: 90%;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* background-color: #000428; */
+    position: fixed;
+    z-index: 100;
+  
+    
+    
+}
+
+nav img{
+    width: 90px;
+    
+}
+
+nav ul li{
+display: inline-block;
+margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(41, 209, 238);
+}
+
+#home img{
+  width: 100%;
+  margin-top: 0;
+  opacity: 0.2;
+  
+}
+
+.content-home{
+    width: 80%;
+    
+}
+
+
+.content-home h2{
+    color: white;
+    margin-top: -620px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 300px;
+}
+
+.content-home span{
+    color: rgb(41, 209, 238);
+}
+
+.content-home a{
+    background-color: grey;
+    padding: 10px 18px;
+    text-decoration: none;
+    color:  rgb(41, 209, 238);
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    margin-left: 680px;
+    
+  }
+
+ .content-home img{
+    margin-bottom: 150px;
+ }
+
+ .about{
+    
+    align-items: center;
+    margin-right: 8%;
+    margin-top: 29%;
+    margin-left: 43%;
+    
+    
+ }
+
+ .about .heading h2{
+    color:white;
+    font-size: 45px;
+    
+    margin-top: -200px;
+ }
+
+ .about .heading span{
+    color:  rgb(41, 209, 238);
+    font-size: 30px;
+    margin-left: 4.7%;
+ }
+
+ .about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+ .about-img img{
+    width: 50%;
+    border-radius: 100px;
+    border: 4px solid;
+    border-color: white;
+    margin-left: -800px;
+    margin-top: 200px;
+    border: 4px solid;
+    border-color: rgb(41, 209, 238);
+    
+  }
+
+  .about-text{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    color: white;
+    margin-top: -300px;
+    
+   
+  }
+
+  .information{
+    margin: 1rem 0 1.4rem; 
+  }
+
+  .information .info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .information .info-box span{
+    font-weight: 500;
+    margin-left: 15px;
+  }
+
+  .button a{
+    background-color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    color:  rgb(41, 209, 238);
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+  }
+  #skills{
+    margin-left: 10%;
+    margin-top: 60%;
+    margin-bottom: 10%;
+    align-items: center;
+  }
+
+  .skills h2{
+    color: white;
+    font-size: 45px;
+    margin-left: 550px;
+    align-items: center;
+    margin-top: 55px;
+    
+  }
+
+  #skills .heading span{
+    margin-top: 130px;
+    color:  rgb(41, 209, 238);
+    font-size: 30px;
+    margin-left: 577px;
+    margin-bottom: 155px;
+    
+  }
+.skill-img img{
+ margin-left: 300px;
+}
+
+.skills h3{
+  display: flex;
+  
+  justify-content: space-between;
+  
+  color: white;
+  margin-top: -300px;
+  margin-left: 390px;
+}
+
+  #contact{
+    margin-left: 8%;
+    margin-top: 25%;
+    margin-right: 8%;
+    justify-content: center;
+   
+  }
+
+  #contact h2{
+    color: white;
+    font-size: 45px;
+    margin-left: 541px;
+    
+  }
+
+  #contact .heading span{
+    color:  rgb(41, 209, 238);
+    font-size: 30px;
+    margin-left: 46%;
+ }
+
+
+  .iconDiv{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    background-color:antiquewhite ;
+  }
+
+  .icon i{
+    font-size: 20px;
+  }
+
+  .icon i:hover{
+    background-color:blue;
+  }
+
+  footer{
+    margin-top: 2rem;
+    font-weight: bolder;
+    color: rgb(41, 209, 238);
+    padding-bottom: 10px;
+    
+  }
+
+  
+ 
+
+  /* ----------------responsive------------- */
+  @media screen and (max-width:600px){
+/* 
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    
+    }
+  */
+  .whole{ width: 100vw;   }
+     
+  
+  .body{ width: 100vw; }
+ 
+  nav{ height: 50px; width: 100%;  margin-left: -120px; position: fixed; z-index: 190;}
+
+  nav ul li{ font-size: 10px;}
+
+  nav img{ margin-left: 120px; width: 60px; }
+
+  
+  #home img{  width: 103%}
+
+  .content-home h2{ margin-top: -250px;  font-size: 34px; margin-left: 110px; } 
+
+  .content-home a{ padding: 8px 10px; margin: 25px 0;  margin-left: 230px;  }
+
+  .about{  margin-right: 8%;   margin-top: 29%; margin-left: 43%; }
+
+  .about .heading h2{ font-size: 35px; margin-left: -55px;  margin-top: -5px; }
+
+  .about .heading span{ font-size: 25px; margin-left: -20px; }
+  
+  .about{  display: inline-block; }
+
+  .about-img img{ width: 150px; margin-left: -35px; margin-top: 60px; }
+
+  .about-text{  margin-top: 60px; margin-left: -200px; }
+
+  .button a{ padding: 10px 10px; margin: 30px 180px; }
+ 
+  #skills{  margin-left: -320px; margin-top: 490px; margin-bottom: 300px;}
+
+  .skills h2{ font-size: 35px; }
+  
+  #skills .heading span{ font-size: 25px;  margin-left: 567px; }
+
+  #contact{
+    margin-left: -320px;
+    margin-top: 25%;
+    margin-right: 8%;
+    justify-content: center;
+   
+  }
+
+  #contact h2{ font-size: 35px; }
+
+  #contact .heading span{  font-size: 25px;  margin-left: 570px; }
+  
+  .iconDiv{ margin-left: 380px;}
+
+  .icon{  margin: 10px 15px; }
+  
+  footer { font-size: 15px; margin-bottom: 30px;}
+  }
+
+
+
+  /* -----------------------Responsive for width 400px------------------------ */
+  @media (max-width:400px){
+  .whole{ width: 100vw;   }
+  nav{ height: 50px;  margin-left: -150px; }
+
+  nav ul li{ font-size: 10px;}
+  nav img{ margin-left: 145px; width: 60px; }
+
+
+  
+  .body{ width: 100vw; overflow-x: hidden; }
+ 
+  #home img{  width: 94% ;overflow-x: hidden;}
+
+  .content-home h2{ margin-top: -150px;  font-size: 24px; margin-left: 30px; width: 100%;} 
+
+  .content-home a{ padding: 8px -10px; padding-right: 10px; margin-left: 150px; width: 23%; font-size: 10px; margin-top: 10px; }
+
+
+  .about .heading h2{ font-size: 35px; text-align: start; margin-top: 30px; }
+
+  .about .heading span{ font-size: 25px; margin-left: -35px; }
+  
+  .about{  display: inline-block; } 
+
+  .about-img img{ width: 150px; margin-left: -39px; margin-top: 30px; }
+
+  .about-text p{  margin-top: -60px; margin-left: 10px;  margin-right: 10px; padding-left: 60px;}
+
+  .information{ margin-left: 90px;}
+
+  .button a{ padding: 10px 10px; margin: 20px 10px; font-size: 15px; }
+ 
+  #skills{  margin-left: -410px; margin-top: 400px; margin-bottom: 60px; text-align: start; }
+
+  .skills h2{ font-size: 35px; }
+  
+  #skills .heading span{ font-size: 25px;  margin-left: 555px; }
+
+  .skill-img img{
+    
+    margin-left: 415px; padding-right: 10px; width: 45%;}
+   
+   .skills .skill-head h3{
+     display: none;
+   }
+   
+
+  #contact{
+    margin-left: -320px;
+    margin-top: 50px;
+    margin-right: 8%;
+    justify-content: center;
+   
+  }
+
+  #contact h2{ font-size: 35px; margin-top: 50px; margin-left: 450px; }
+
+  #contact .heading span{  font-size: 25px;  margin-left: 465px; }
+  
+ 
+  .iconDiv{margin-left: 220px; width: 90%;}
+
+ 
+ 
+  .icon i{
+    font-size:16px;
+  }
+
+  footer { font-size: 10px; margin-bottom: 30px; margin-left: -5px;}
+ 
+
+  
+}
